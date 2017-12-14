@@ -1,7 +1,7 @@
 {
   "name": "angular-stripe",
   "version": "5.0.0",
-  "description": "Angular service provider for interacting with Stripe",
+  "description": "Angular service provider for interacting with Stripe and gets release folder with npm or yarn install.",
   "main": "./src",
   "scripts": {
     "test": "standard && zuul --phantom -- test/*.js",
@@ -52,14 +52,5 @@
     "pify": "~2.3.0",
     "stripe-as-promised": "~2.1.0",
     "stripe-errback": "~1.0.2"
-  },
-  "files": [
-    "src/*.js",
-    "readme.md"
-  ],
-  "standard": {
-    "ignore": [
-      "release/"
-    ]
   }
 }
